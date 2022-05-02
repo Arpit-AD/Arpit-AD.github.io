@@ -1,0 +1,9 @@
+.p_content:hover .p_image{
+    opacity: 0.1;
+}
+.p_content .p_head{
+    display:none
+}
+.p_content:hover .p_head{
+    display:block
+}
