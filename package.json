@@ -1,11 +1,14 @@
 {
+  "homepage": "http://Arpit-AD.github.io/",
   "name": "portfolio_ad",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
@@ -19,6 +22,7 @@
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
     "autoprefixer": "^10.4.4",
+    "gh-pages": "^3.2.3",
     "postcss": "^8.4.12",
     "tailwindcss": "^3.0.24",
     "vite": "^2.9.2"
