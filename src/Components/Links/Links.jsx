@@ -7,7 +7,7 @@ const Links  = () =>{
       
 
   return (
-      <div className='text-gray-400  w-1/4 my-20 md:mx-12 mx-6'>
+      <div className='text-gray-400 w-1/4 my-20 md:mx-12 mx-6'>
           <ul>
           <li><a href="https://github.com/Arpit-AD/" target="_blank" ><ImGithub  className='hover:text-white h-8 w-5'/></a></li>
           <li><a href="https://www.linkedin.com/in/arpit-das-9210a01a5/" target="_blank"><ImLinkedin className='hover:text-white h-8 w-5'/></a></li>
