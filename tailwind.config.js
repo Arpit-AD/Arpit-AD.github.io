@@ -10,6 +10,8 @@ module.exports = {
         'metal': '#D9D9DA',
       },
       screens: {
+        'imageScreen': '400px',
+
         'xs': '500px',
 
         'sm': '640px',

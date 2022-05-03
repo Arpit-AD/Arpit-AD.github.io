@@ -39,12 +39,12 @@ const Navbar  = () =>{
             )}
             </ul>
             <Links />
-            <div className='font-mono text-white w-full mt-10 mx-6' onClick={() => navigate("/")} >
+            <div className='font-mono text-white w-full mt-10 mx-6 fixed bottom-10' onClick={() => navigate("/")} >
               <div className='text-xl font-semibold tracking-widest'>
                   ARPIT DAS
               </div>
               <div className='text-xs tracking-widest text-gray-400 '>
-                 SOFTWARE DESIGNER & DEVELOPER 
+                 SOFTWARE DESIGNER & <br/> DEVELOPER 
               </div>
           </div>
           </div>
