@@ -7,12 +7,12 @@ function LeftHalfScreen() {
   const navigate = useNavigate();
 
   return (
-    <div className='fixed z-50 min-h-screen md:w-1/4 w-1/6 dark-gradient-bg'>
+    <div className='fixed min-h-screen md:w-1/4 w-1/6 dark-gradient-bg'>
     <Navbar />
       <div className=' md:block hidden'>
         <Links />
         </div>
-        <div className='md:block hidden text-white w-3/4  mt-32 mx-12 cursor-pointer' onClick={()=>navigate('/')}>
+        <div className='md:block hidden text-white w-3/4  mt-32 mx-12 cursor-pointer fixed bottom-10' onClick={()=>navigate('/')}>
               <div className='text-3xl font-semibold tracking-widest'>
                   ARPIT DAS
               </div>

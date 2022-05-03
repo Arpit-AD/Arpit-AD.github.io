@@ -21,7 +21,7 @@ const LeftHalf  = () =>{
                   Passionate to make life <br/> easy and amazing!!!
                   </div>
           </div>
-          <div className='md:block hidden text-white w-2/3  mt-32 mx-12 fixed bottom-10' onClick={() => navigate('/')}>
+          <div className='md:block hidden text-white w-2/3  cursor-pointer mt-32 mx-12 fixed bottom-10' onClick={() => navigate('/')}>
               <div className='text-3xl font-semibold tracking-widest'>
                   ARPIT DAS
               </div>
