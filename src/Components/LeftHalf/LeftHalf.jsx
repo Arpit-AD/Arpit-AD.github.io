@@ -12,7 +12,7 @@ const LeftHalf  = () =>{
   return (
     <div className='min-h-screen md:w-1/2 w-5/6 dark-gradient-bg'>
       <Navbar />
-      <div className='md:block hidden z-40'>
+      <div className='md:block hidden'>
         <Links />
         </div>
           <div className='font-sans md:hidden block xs:text-2xl text-xl leading-loose text-2xl font-semibold text-gray-500 font-bold m-10 w-fit tracking-wider xl:p-10 p-6 xs:p-6 p-0 md:m-10 m-6 xs:m-6 m-2 md:mt-0 mt-16  transition duration-200 ease-out transition-all animate-slide-in'>

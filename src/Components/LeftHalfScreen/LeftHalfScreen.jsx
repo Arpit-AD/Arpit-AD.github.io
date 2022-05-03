@@ -7,7 +7,7 @@ function LeftHalfScreen() {
   const navigate = useNavigate();
 
   return (
-    <div className='fixed min-h-screen md:w-1/4 w-1/6 dark-gradient-bg'>
+    <div className='fixed min-h-screen md:w-1/4 w-1/6 z-50 dark-gradient-bg'>
     <Navbar />
       <div className=' md:block hidden'>
         <Links />

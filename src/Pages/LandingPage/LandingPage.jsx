@@ -11,7 +11,7 @@ function LandingPage() {
       <LeftHalf />
       <img src={mypic} className='md:hidden block fixed bottom-0 -right-12  h-2/3 '></img>
       <img src={mypic2} className='md:block hidden fixed bottom-0 -right-12  h-2/3'></img>
-      <img src={icon} className='md:block hidden fixed z-10 md:inset-x-20 opacity-10  bottom-0 z-10 h-3/4'></img>
+      <img src={icon} className='md:block hidden fixed z-10 md:inset-x-20 opacity-10  bottom-0 h-3/4'></img>
 
       <RightHalf/>
       {/* {screen === "NotLanding" && <LeftHalfScreen/>}
