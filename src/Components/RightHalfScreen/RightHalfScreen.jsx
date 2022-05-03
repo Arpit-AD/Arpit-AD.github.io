@@ -5,8 +5,7 @@ import { BsArrowUpRightCircleFill } from "react-icons/bs"
 function RightHalfScreen({ Right }) {
   // const [showScreen, setShowScreen] = useState("")
   return (
-    <div className='min-h-screen ml-auto xl:w-3/4 w-9/12 md:w-9/12 w-10/12 light-gradient-bg'>
-
+    <div className='min-h-screen ml-auto my-1/2 xl:w-3/4 w-9/12 md:w-9/12 w-10/12 light-gradient-bg'>
       <Right />
       <div className=' text-gray-500 w-fit text-lg tracking-widest fixed bottom-1/2 md:-right-12 -right-16 rotate-90 '> (+91) - 77019 61032</div>
       <div className='fixed w-fit xl:text-2xl text-xl md:text-xl text-md md:px-7 px-0 flex md:py-3 py-3 text-gray-500 font-semibold  bottom-10 right-2 tracking-widest'>
