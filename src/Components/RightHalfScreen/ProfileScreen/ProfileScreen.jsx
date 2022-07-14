@@ -3,7 +3,7 @@ import Skills from "../ProfileScreen/Skills/Skills.jsx"
 import Education from './Education/Education.jsx'
 
 function ProfileScreen() {
-  const [showSkills, setShowSkills] = useState("Education")
+  const [showSkills, setShowSkills] = useState("Skills")
   
     return (
         <div className='xl:w-3/4 w-5/6 mx-auto my-8  transition duration-200 ease-in transition-all animate-slide-in'>

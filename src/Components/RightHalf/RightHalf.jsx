@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import {BsArrowUpRightCircleFill} from "react-icons/bs"
+import coder from "../../images/coder.png"
+
 
 const RightHalf  = () =>{
       
@@ -14,7 +16,8 @@ const RightHalf  = () =>{
           </div>
           <div className='text-gray-500 w-fit text-lg tracking-widest absolute  md:bottom-5/12 bottom-2/3 md:-right-8 -right-12 rotate-90 '> (+91) - 77019 61032</div>
           <div className='w-fit xl:text-2xl text-xl md:text-xl text-md md:px-7 px-0 flex md:py-3 py-3 text-slate-300 absolute font-semibold  bottom-10 right-2 tracking-widest'>
-            <span className='md:inline hidden '>RESUME</span>    <a href='https://drive.google.com/file/d/1VHexmS8kfcCB5qshpZ22LKFKsdxA2r9k/view?usp=sharing' target="_blank" > <BsArrowUpRightCircleFill className='text-slate-500 hover:text-white h-8 mx-1 w-10 '/> </a>
+          <img src = {coder} className= "md:block hidden fixed  h-1/4" />
+            {/* <span className='md:inline hidden '>RESUME</span>    <a href='https://drive.google.com/file/d/1VHexmS8kfcCB5qshpZ22LKFKsdxA2r9k/view?usp=sharing' target="_blank" > <BsArrowUpRightCircleFill className='text-slate-500 hover:text-white h-8 mx-1 w-10 '/> </a> */}
           </div>
     </div>
   )

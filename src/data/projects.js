@@ -5,8 +5,36 @@ import ShootSurvive from "../images/ShootSurvive.png"
 import Raunakh from "../images/Raunakh.png"
 import ShrijiShringarProject from "../images/ShrijiShringarProject.png"
 import ExpenseTracker from "../images/ExpenseTracker.png"
+import WHC from "../images/WHC.png"
+import talkOchat from "../images/talkOchat.png"
 
 const projectData = [
+    
+    {
+        name: "Wellness Homeo Clinic",
+        description: "Developed an Homeopathic Doctor’s website using React.js and TailwindCSS. This project took me over a week to develop the design of the website using Adobe Illustrator and then started developing it using ReactJS. Hosted the website on IIS windows server providing a secure, modular, easy-to-manage and extensible platform for website.",
+        tech:[
+            "ReactJs",
+            "Github",
+            "IIS Windows server",
+        ],
+        img: WHC,
+        github : "",
+        link: "http://drrasnakaur.com/"
+    },
+    {
+        name: "Talk-O-Chat",
+        description: "Clean and simple application where you can make a room and chat with friends by sharing them the room details and sends messages to people who are connected to the same socket, developed using Socket.io.",
+        tech:[
+            "ReactJs",
+            "Socket.io",
+            "Github",
+            "Netlify"
+        ],
+        img: talkOchat,
+        github : "https://github.com/Arpit-AD/Talk-O-Chat/",
+        link: "https://talk-o-chat.herokuapp.com/"
+    },
     {
         name: "Krypt",
         description: "Krypt is a self - made project, Structure and design of web pages are based on user requirements, functional and aesthetic designs created using React.js. Created features to enhance the user experience while ensuring that the web design is optimized for smartphones. I created this project being curious about web3.0 and the future technologies.While making this project I integrated coinranking API & bing news search API from rapidapi.com using Redux.I used tailwindCSS for styling it.During the time I worked on the project I learned about various cryptocurrencies, the market, the investments, the exchanges and very keen to know more about it. ",
@@ -18,7 +46,7 @@ const projectData = [
             "Netlify"
         ],
         img: Krypt,
-        github : "https://github.com/Arpit-AD/KryptoApp",
+        github : "https://github.com/Arpit-AD/KryptoApp/",
         link: "https://kryptad.netlify.app/"
     },
     {
@@ -30,7 +58,7 @@ const projectData = [
             "Javascript"
         ],
         img: Travelscope,
-        github : "https://github.com/Arpit-AD/TravelScope",
+        github : "https://github.com/Arpit-AD/TravelScope/",
         link: "https://arpit-ad.github.io/TravelScope/"
 
     },
@@ -43,7 +71,7 @@ const projectData = [
             "Javascript"
         ],
         img: Simon,
-        github : "https://github.com/Arpit-AD/Simon-Game",
+        github : "https://github.com/Arpit-AD/Simon-Game/",
         link: "https://arpit-ad.github.io/Simon-Game/"
 
     },
@@ -56,7 +84,7 @@ const projectData = [
             "Javascript"
         ],
         img: ShootSurvive,
-        github : "https://github.com/Arpit-AD/Shoot-Survive",
+        github : "https://github.com/Arpit-AD/Shoot-Survive/",
         link: "https://arpit-ad.github.io/Shoot-Survive/"
        
     },
@@ -88,7 +116,7 @@ const projectData = [
         ],
         img: Raunakh,
         github : "",
-        link: "raunak.ml"
+        link: "http://raunak.ml/"
 
     },
     {
@@ -100,7 +128,7 @@ const projectData = [
             "Netlify"
         ],
         img: ExpenseTracker,
-        github : "https://github.com/Arpit-AD/ExpenseTracker",
+        github : "https://github.com/Arpit-AD/ExpenseTracker/",
         link: "https://arpit-expense-tracker.netlify.app/"
 
     },

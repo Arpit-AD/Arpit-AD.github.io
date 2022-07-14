@@ -19,7 +19,7 @@ const LeftHalf  = () =>{
              <span className='xl:text-3xl text-2xl xs:text-2xl text-base font-semibold text-gray-400 font-bold '>Hello, This is </span><span className='xl:text-6xl text-5xl xs:text-5xl text-3xl font-bold text-white'>Arpit </span><br />
               <div className='xl:text-2xl text-xl xs:text-xl text-base text-gray-400 xl:p-4 p-2 font-bold leading-tight'>A <span className='text-gray-100'>Software Developer </span> & <span className='text-gray-100'> Designer</span><br/>
                   Passionate to make life <br/> easy and amazing!!!
-                  </div>
+                  </div> 
           </div>
           <div className='md:block hidden text-white w-2/3  cursor-pointer mt-32 mx-12 fixed bottom-10' onClick={() => navigate('/')}>
               <div className='text-3xl font-semibold tracking-widest'>

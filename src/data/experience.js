@@ -26,7 +26,7 @@ const experienceData = [
                     }
                 ],
                 description: [
-                    "AgileDone Technologies Ltd, a global Information Technology and System Integration company and are today the trusted partner of many organizations, providind end-to-end solutions to our customers, right from project analysis, infrastructure, consulting, designing, implementation, testing to integration and support.",
+                    "AjileDone Technologies Ltd, a global Information Technology and System Integration company and are today the trusted partner of many organizations, providind end-to-end solutions to our customers, right from project analysis, infrastructure, consulting, designing, implementation, testing to integration and support.",
                     "Developed Front‐end of E‐Commerce website using ReactJS, connected to Back‐end, and managed states using Redux.",
                     "Built fully responsive UI/UX design for easy to shop experience for customers and integrated APIs."
                 ]
