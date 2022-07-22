@@ -1,8 +1,8 @@
 {
-  "homepage": "http://Arpit-AD.github.io/",
   "name": "portfolio_ad",
   "private": true,
   "version": "0.0.0",
+  "homepage": "http://Arpit-AD.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
