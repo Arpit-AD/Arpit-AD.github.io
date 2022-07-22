@@ -1,5 +1,5 @@
 {
-  "homepage": "http://arpitdas.me",
+  "homepage": "http://Arpit-AD.github.io/",
   "name": "portfolio_ad",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/Arpit-AD/Arpit-AD.github.io.git"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
