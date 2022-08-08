@@ -9,7 +9,6 @@ import WHC from "../images/WHC.png"
 import talkOchat from "../images/talkOchat.png"
 
 const projectData = [
-    
     {
         name: "Wellness Homeo Clinic",
         description: "Developed an Homeopathic Doctor’s website using React.js and TailwindCSS. This project took me over a week to develop the design of the website using Adobe Illustrator and then started developing it using ReactJS. Hosted the website on IIS windows server providing a secure, modular, easy-to-manage and extensible platform for website.",
