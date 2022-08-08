@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b main --remote gh-pages"
+    "deploy": "gh-pages --remote tps -d dist"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
