@@ -12,7 +12,7 @@ const ProjectScreen  = () =>{
       {project === "false" && (<div className='xl:flex block flex-wrap justify-center' >  
         {projectData && projectData.map((theProject) =>
           <div className='p-2  '>
-            <div className='hover:bg-slate-800 p_content relative' onClick={() => { setProjectType(theProject); setProject("true") }}>
+            <div className='hover:bg-slate-800 p_content relative' onClick={() => {setProjectType(theProject); setProject("true") }}>
               <img src={theProject.img} className="p_image projectScreen:max-h-64 h-auto projectScreen:w-auto w-full  cursor-pointer hover:text-darkslate  transition duration-200 ease-out transition-all animate-slide-in hover:ease-in shadow-2xl"  />
               <div className='text-white p_head w-full text-center transition duration-200 ease-out hover:ease-in  text-2xl cursor-pointer absolute font-mono top-1/4'>
                 <div className='mb-3'> {theProject.name}</div>

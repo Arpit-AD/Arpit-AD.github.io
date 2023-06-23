@@ -17,7 +17,7 @@ function ProfileScreen() {
           <div className='font-mono my-2 tracking-loose text-slate-600 '>
           <span className='text-lg text-lightslate font-semibold'>
             Heyy!
-          </span> <br/>I am a 20 Year <span className='font-semibold text-lightslate'> Software Designer & Developer </span>who blends the best design and technology to create compelling and engaging software.<br/>
+          </span> <br/>I am a 21 Year <span className='font-semibold text-lightslate'> Software Designer & Developer </span>who blends the best design and technology to create compelling and engaging software.<br/>
             Currently, A pre-final Year engineering student eager to seek a position in an environment that emphasizes teamwork
             and encourages learning by doing. Always ready to tackle real-life problems with problem-solving.
           </div>

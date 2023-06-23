@@ -21,7 +21,7 @@ const skillData = [
     },
     {
         skill: "ReactJs",
-        rate: "9"
+        rate: "7"
     },
     {
         skill: "Illustrator",
@@ -29,15 +29,15 @@ const skillData = [
     },
     {
         skill: "NodeJs",
-        rate: "8"
+        rate: "7"
     },
     {
         skill: "ExpressJs",
-        rate: "8"
+        rate: "7"
     },
     {
         skill: "MongoDB",
-        rate: "8"
+        rate: "7"
     },
     {
         skill: "Git/Github",

@@ -1,16 +1,42 @@
 import ShrijiShringar from "../images/ShrijiShringar.png"
 import Techsoc from "../images/Techsoc.png"
 import Ajiledone from "../images/Ajiledone.jpg"
+import VeersaImage from '../images/VeersaTechnologiesLogo.png'
 
 const experienceData = [
     {
         experienceName: "Technical Experience",
         experience: [
             {
+                companyName : 'Veersa Technologies',
+                duration : 'Feb 2023 - Aug 2023',
+                position : 'Software Developer Intern',
+                image: VeersaImage,
+                project : [
+                    {
+                        nameOfProject: 'Healthedge Application',
+                        techStack: [
+                            "ReactJS",
+                            "Redux",
+                            "Saga",
+                            "C#",
+                            "dotnet",
+                            "BitBucket",
+                            "Jira Platform"
+                        ],
+
+                    }
+                ],
+                description: [
+                    ' Working with UI - refactoring team to convert desktop application of Healthedge to a web application connecting with SOAP APIs',
+                    ' Implementing ReactJS functionalities along with Redux in typescript for smooth and fast access through web application.'
+                ]
+            },
+            {
                 companyName: "Ajiledone Solutions",
                 duration: "Jul 2021 - Aug 2021",
-                position: "Full Stack Developer",
-                image: ShrijiShringar,
+                position: "Full Stack Developer Intern",
+                image: Ajiledone,
                 project: [
                     {
                         nameOfProject: "Shriji Shringar",
@@ -30,7 +56,7 @@ const experienceData = [
                     "Developed Front‐end of E‐Commerce website using ReactJS, connected to Back‐end, and managed states using Redux.",
                     "Built fully responsive UI/UX design for easy to shop experience for customers and integrated APIs."
                 ]
-            }
+            },
         ]
     },
     {
