@@ -33,7 +33,7 @@ const Links = () => {
 				</li>
 				<li>
 					{" "}
-					<a href="https://bit.ly/ad-aug24" target="_blank">
+					<a href="https://bit.ly/ad-oct24_1" target="_blank">
 						{" "}
 						<BsArrowUpRightCircleFill className="hover:text-white h-8 w-5" />{" "}
 					</a>
